@@ -1,0 +1,11 @@
+Tema: 25914_7
+GRAMÁTICA ASIGNADA
+
+<juego>         ::= "juego" <nombre> "{"<escenas>"}"
+<escenas>       ::= {<escena>}
+<escena>        ::= "escena" <nombre> "{"<acciones>"}"
+<acciones>      ::= {<imprimir>|<leer>|<condición>|<saltar>}
+<imprimir>      ::= "mostrar" <texto> ";"
+<leer>          ::= "leer" <variable> ";"
+<condición>     ::= "si" <comparación> "saltar" <escena> ";"
+<comparación>   ::= <variable> "==" <valor>

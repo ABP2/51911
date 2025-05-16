@@ -1,0 +1,19 @@
+juego Instrucciones {
+    escena Inicio {
+        mostrar "Precione 1 para leer las instrucciones o 2 para salir";
+        leer num ;
+        si num == 1 saltar ayuda ;
+        si num == 2 saltar salir ;
+    }
+
+    escena ayuda {
+        mostrar "Debe seleccionar un número para tomar una desción.";
+        mostrar "seleccione 1 para salir." ;
+        leer elec ;
+        si elec == 1 saltar salir;
+    }
+
+    escena salir {
+        mostrar "Ha salido del juego";
+    }
+}

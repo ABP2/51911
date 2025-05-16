@@ -1,0 +1,5 @@
+juego 17 {
+    escena Introduccion {
+        mostrar "Bienvenido a la aventura";
+        saltar PrimerEleccion;
+    }

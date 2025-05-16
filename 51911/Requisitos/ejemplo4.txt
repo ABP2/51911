@@ -1,0 +1,11 @@
+juego Instrucciones (
+    Inicio {
+        imprimir "Precione 1 para leer las instrucciones o 2 para salir";
+        leer num :
+        si num == 2 saltar salir ;
+    }
+
+     salir {
+        mostrar "Ha salido del juego";
+    }
+}

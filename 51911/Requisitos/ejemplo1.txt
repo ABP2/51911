@@ -1,0 +1,16 @@
+juego Aventura {
+    escena Introduccion {
+        mostrar "Bienvenido a la aventura";
+        saltar PrimerEleccion;
+    }
+
+    escena PrimerEleccion {
+        mostrar "Para iniciar seleccione 1";
+        leer eleccion;
+        si eleccion == 1 saltar Iniciar;
+    }
+
+    escena Iniciar {
+        mostrar "Ha iniciado la aventura.";
+    }
+}
